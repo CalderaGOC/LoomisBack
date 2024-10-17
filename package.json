@@ -1,0 +1,31 @@
+{
+  "name": "loomis_bck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+
+"dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+
+  "keywords": [],
+  "author": "CalderaGOC",
+  "license": "ISC",
+  "description": "Backend proyecto Loomis - Envio de mensajes a personal por Whatsapp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalderaGOC/LoomisBack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CalderaGOC/LoomisBack/issues"
+  },
+  "homepage": "https://github.com/CalderaGOC/LoomisBack#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+
+}
