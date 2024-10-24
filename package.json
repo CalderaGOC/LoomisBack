@@ -6,12 +6,21 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-
-"dependencies": {},
-  "devDependencies": {
-    "nodemon": "^2.0.15"
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "fs-extra": "^11.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.13.0",
+    "xlsx": "^0.18.5"
   },
-
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
   "keywords": [],
   "author": "CalderaGOC",
   "license": "ISC",
@@ -23,9 +32,5 @@
   "bugs": {
     "url": "https://github.com/CalderaGOC/LoomisBack/issues"
   },
-  "homepage": "https://github.com/CalderaGOC/LoomisBack#readme",
-  "dependencies": {
-    "express": "^4.21.1"
-  }
-
+  "homepage": "https://github.com/CalderaGOC/LoomisBack#readme"
 }
